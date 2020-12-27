@@ -26,7 +26,7 @@ this contract is a *contract for difference*).
 > A simple example would be a MPA that is backed by USD (a stable crypto token within BitShares) that requires a collateral ratio of 200%. Then, in order to get new coin, we can borrow 100 USD worth of new coins by paying 200 USD.
 
 By this, the supply of your coin is increased by 100. But how would it
-be decreased? The USD are locked in the smart contract and can only be
+be decreased? The Money is locked in the smart contract and can only be
 reclaimed if the debt (here, 100 coins) are returned. Returning them
 will result in the coins being removed from the supply because the are
 no longer backed by any collateral.
@@ -41,7 +41,7 @@ so called *Margin Calls* which will
 1. Take your collateral (here, USD)
 2. Sell it in the market to buy back the coin you owe
 3. Close the contract
-4. Pay your the residual USD
+4. Pay you the residual USD
 
 A *fair price* thus tells the market what your coin is worth (e.g.
 traded for on external exchanges) and triggers margin calls if
